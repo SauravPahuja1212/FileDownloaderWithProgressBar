@@ -21,7 +21,7 @@ public class FileDownloaderWithProgressBar {
 
 	private static final String DOWNLOAD_DIR_PATH = "E:\\";
 	private static final int BUFFER_BYTES = 1024;
-	private static final String URL = "https://download.macromedia.com/pub/elearning/objects/";
+	private static final String URL = "https://download.macromedia.com/pub/elearning/objects/mx_creating_lo.pdf";
 	private static final String ICON_LEFT = "[";
 	private static final String ICON_RIGHT = "]";
 	private static final String ICON_PROGRESS = "=";
@@ -48,7 +48,7 @@ public class FileDownloaderWithProgressBar {
 			fileNameWithExtension = getFileNameFromURL(URL);
 		}
 		
-		boolean isDownlaoded = fileNameWithExtension=="" ? downloadFile(URL) : false;
+		boolean isDownlaoded = fileNameWithExtension!="" ? downloadFile(URL) : false;
 		
 		if(isDownlaoded == true && Objects.nonNull(fileNameWithExtension) && fileNameWithExtension.length() > 0) {
 			System.out.print("\nDownloaded file -> "+ fileNameWithExtension);
