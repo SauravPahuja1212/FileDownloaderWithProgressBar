@@ -66,7 +66,9 @@ public class FileDownloaderWithProgressBar {
 	 * @param urlText This is URL of file to fetch name from
 	 * @return String This return fileName from given URL
 	 * @exception IndexOutOfBoundsException on wrong file name
+	 * @MalformedURLException If URL is wrong entered
 	 * @see IndexOutOfBoundsException
+	 * @see MalformedURLException
 	 */
 	static String getFileNameFromURL(String urlText) {
 		
