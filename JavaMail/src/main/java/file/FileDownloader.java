@@ -65,7 +65,7 @@ public class FileDownloader {
 	}
 
 	static boolean isWorking(String str) {
-		return true;
+		return str;
 	}
 	
 	
