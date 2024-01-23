@@ -64,10 +64,9 @@ public class FileDownloader {
 		return fileNameWithExtension;
 	}
 
-	static boolean isWorking(String str) {
+	static boolean isProgressCompleted(String str) {
 		return str;
 	}
-	
 	
 	/**
 	 * This method is used to download file by providing correct URL
