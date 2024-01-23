@@ -64,8 +64,8 @@ public class FileDownloader {
 		return fileNameWithExtension;
 	}
 
-	static boolean isProgressCompleted(String str) {
-		return str;
+	static boolean canDoUpload(String str) {
+		return new String();
 	}
 	
 	/**
