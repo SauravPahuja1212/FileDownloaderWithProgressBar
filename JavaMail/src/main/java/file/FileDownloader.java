@@ -9,7 +9,7 @@ import java.net.URL;
 import java.util.Objects;
 
 /**
- * <h1>Download File From URL</h1>
+ * <h1>Download File From URL,</h1>
  * This Class Downloads File From URL
  * 
  * @author SauravPahuja
@@ -63,7 +63,10 @@ public class FileDownloader {
 
 		return fileNameWithExtension;
 	}
-	
+
+	static boolean canDoUpload(String str) {
+		return new String();
+	}
 	
 	/**
 	 * This method is used to download file by providing correct URL
